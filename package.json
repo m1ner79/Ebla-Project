@@ -1,0 +1,19 @@
+{
+  "name": "ebla-project",
+  "version": "0.0.1",
+  "description": "Automatic archivisation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1ner79/Ebla-Project.git"
+  },
+  "author": "LMG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m1ner79/Ebla-Project/issues"
+  },
+  "homepage": "https://github.com/m1ner79/Ebla-Project#readme"
+}

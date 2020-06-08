@@ -1,2 +1,2 @@
-# Ebla-Project
+# Ebla Project
 Automatic archivisation.
