@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/m1ner79/Ebla-Project/issues"
   },
-  "homepage": "https://github.com/m1ner79/Ebla-Project#readme"
+  "homepage": "https://github.com/m1ner79/Ebla-Project#readme",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
 }
