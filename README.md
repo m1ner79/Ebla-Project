@@ -4,7 +4,7 @@
 
 - [What is Ebla?](#what-is-ebla)
 - [Ebla of today.](#ebla-of-today)
-- [Diagram](#diagram)
+- [Visual](#visual)
 - [License](#license)
 
 <!-- tocstop -->
@@ -22,7 +22,7 @@ Initially we will focus on Slack but after that, who knows, GitHub, Twitter... W
 
 ## Diagram
 
-[![](ebla-diagram)](./img/ebla.png)
+[![](ebla-diagram)](img/ebla.png)
 
 *  You will be able to connect many sources.
 
