@@ -4,6 +4,7 @@
 
 - [What is Ebla?](#what-is-ebla)
 - [Ebla of today.](#ebla-of-today)
+- [Diagram](#diagram)
 - [License](#license)
 
 <!-- tocstop -->
@@ -18,6 +19,16 @@ If you wish to read more about Ebla click [here](https://en.unesco.org/syrian-ob
 
 Our project is focused to inject automation into archivisation. No more worries that some of your historical conversations will vanish. With Ebla Project your archive will update automatically.
 Initially we will focus on Slack but after that, who knows, GitHub, Twitter... World is our oyster.
+
+## Diagram
+
+[![](ebla-diagram)](./img/ebla.png)
+
+*  You will be able to connect many sources.
+
+*  You will be able to register many projects. 
+
+*  Messages will be stored based on the project membership.
 
 ## License
 
