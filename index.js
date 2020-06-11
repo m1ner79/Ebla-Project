@@ -1,3 +1,4 @@
+const serveIndex = require('serve-index');
 const express = require('express');
 const app = express();
 
@@ -11,3 +12,5 @@ app.use('/nest', (req, res, next) => {
     console.log('Request type: ', req.method);
     next();
 });
+app.use('/test', express.static('public'))
+app.use('/test', serveIndex('public'))
