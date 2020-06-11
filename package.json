@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "markdown-toc": "^1.2.0",
-    "save": "^2.4.0"
+    "save": "^2.4.0",
+    "serve-index": "^1.9.1"
   }
 }

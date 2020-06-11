@@ -6,3 +6,8 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Gator app listening on port 3000!'));
+
+app.use('/nest', (req, res, next) => {
+    console.log('Request type: ', req.method);
+    next();
+});
