@@ -4,17 +4,17 @@
 # 1. yourwebapp is an sample web service where the docker container image will be built from the Dockerfile as
 #    part of starting the compose.
 # 2. redis is an existing image hosted in docker hub.
-version: '3.4'
+version: 'alpha'
 
 services:
-  # yourwebapp:
-  #   image: yourwebapp
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   ports:
-  #       - 80
-
+  ebla:
+    image: ebla
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 3000
+  
   db:
     image: postgres
     restart: always
