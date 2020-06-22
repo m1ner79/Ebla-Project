@@ -11,4 +11,4 @@ RUN npm install
 # Copy sources
 COPY . .
 
-ENTRYPOINT [ "node", "/app/cli" ]
+ENTRYPOINT [ "node", "/app/index" ]
