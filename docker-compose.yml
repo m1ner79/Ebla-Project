@@ -1,4 +1,4 @@
-version: 0.0.1
+version: '2'
 
 services:
   ebla:
@@ -7,16 +7,16 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-        - 3000
+        - 3000:3000
   
   db:
     image: postgres
-    restart: always
+    #restart: always
     environment:
       POSTGRES_PASSWORD: example
 
   adminer:
     image: adminer
-    restart: always
+    #restart: always
     ports:
       - 8080:8080

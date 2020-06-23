@@ -4,7 +4,8 @@
 
 - [What is Ebla?](#what-is-ebla)
 - [Ebla of today.](#ebla-of-today)
-- [Visual](#visual)
+- [Diagram](#diagram)
+- [Developement](#developement)
 - [License](#license)
 
 <!-- tocstop -->
@@ -29,6 +30,14 @@ Initially we will focus on Slack but after that, who knows, GitHub, Twitter... W
 *  You will be able to register many projects. 
 
 *  Messages will be stored based on the project membership.
+
+## Developement
+
+You will need to install docker-compose. It is a tool for defining and running multi-container Docker applications.
+You can find instructions on how to install it [here](https://docs.docker.com/compose/install/).</br>  
+After successful installation, run this command: `docker-compose -f docker-compose.yml up`.
+This will start whole enviroment required to run ebla.</br>   
+Now, go to `http://localhost:enter your port/` to check if everything works correctly.
 
 ## License
 
