@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-
+console.log("I'm working here");
 (async () => {
 	const body = {a: 1};
 	const response = await fetch('https://en1x1r494oruq.x.pipedream.net/', {

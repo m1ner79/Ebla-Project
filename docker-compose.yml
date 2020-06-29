@@ -9,6 +9,12 @@ services:
     ports:
         - 3000:3000
   
+  slack_mock:
+    image: slack_mock
+    build:
+      context: test/slack_mock
+      dockerfile: Dockerfile
+  
   db:
     image: postgres
     #restart: always
