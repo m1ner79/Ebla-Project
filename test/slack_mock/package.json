@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.0",
-    "randomstring": "^1.1.5"
+    "random-sentence": "^1.0.4"
   },
   "author": "",
   "license": "ISC"

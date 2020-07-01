@@ -2,15 +2,9 @@ const serveIndex = require('serve-index');
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('An alligator approaches!');
+app.post('/', (req, res) => {
+    console.log(req.body);
+    res.send('Webhook received.');
 });
 
-app.listen(3000, () => console.log('Ebla app listening on port 3000!'));
-
-app.use('/nest', (req, res, next) => {
-    console.log('Request type: ', req.method);
-    next();
-});
-app.use('/test', express.static('public'))
-app.use('/test', serveIndex('public'))
+app.listen(4000, () => console.log('Ebla app listening on port 4000!'));

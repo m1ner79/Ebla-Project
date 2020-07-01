@@ -1,21 +1,24 @@
 const fetch = require('node-fetch');
-const randomstring = require("randomstring");
+const randomsentence = require('random-sentence');
 
 
 setInterval(postMessage, 2000);
+
 
 async function postMessage() {
 
 	const body = random();
 
-	const response = await fetch('https://enb0vptlpxj7d.x.pipedream.net', {
+	try {
+		await fetch('http://localhost:4000', {
 		method: 'post',
 		body: JSON.stringify(body),
 		headers: {'Content-Type': 'application/json'}
 	});
+	} catch (error) {
+		console.log(error);
+	}
 
-	const json = await response.json();
-	console.log(json);
 };
 
 function random(){
@@ -28,7 +31,7 @@ function random(){
 			"type": "message",
 			"channel": "C024BE91L",
 			"user": "U2147483697",
-			"text": randomstring.generate(),
+			"text": randomsentence(),
 			"ts": "1355517523.000005",
 			"event_ts": "1355517523.000005",
 			"channel_type": "channel"
