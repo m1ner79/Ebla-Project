@@ -10,7 +10,7 @@ async function postMessage() {
 	const body = random();
 
 	try {
-		await fetch('http://localhost:4000', {
+		await fetch('http://ebla:4000', {
 		method: 'post',
 		body: JSON.stringify(body),
 		headers: {'Content-Type': 'application/json'}
